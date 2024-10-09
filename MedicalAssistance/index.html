@@ -27,6 +27,41 @@
             border-radius: 8px;
             box-shadow: 0 2px 4px rgba(0,0,0,0.1);
         }
+    …
+[0:34, 8/10/2024] Renzo Villafuerte: Aparece las fotos con links para las redes
+[0:34, 8/10/2024] Renzo Villafuerte: Solo faltaria crear las redes
+[10:37, 8/10/2024] Renzo Llerena: ya lo actualizo al repo
+[10:38, 8/10/2024] Renzo Llerena: listo
+[10:46, 8/10/2024] Renzo Llerena: Listo
+[15:41, 9/10/2024] Renzo Villafuerte: <!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medical Assistance - GreatMinds</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header {
+            padding: 20px;
+            text-align: center;
+            color: rgb(255, 255, 255);
+        }
+        header h1 {
+            margin: 0;
+        }
+        section {
+            margin: 20px;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
         section h2 {
             color: #000000;
         }
@@ -127,10 +162,38 @@
             </a>
         </div>
     </section>
+    <article id="detalles">
+        <section class="fila video">
+            <!-- Ventajas generales de los videos -->
+            <div class="celdas columna bg-azulmd">
+                <h1>Sesión demo</h1>
+                <div class="cuerpo">
+                    Aquí puedes comprobar cómo es una sesión del curso.
+                    <ul>
+                        <li>Puedes verla varias veces.</li>
+                        <li>Podrás detener y repetir apartados.</li>
+                        <li>Puedes descargar los ejemplos.</li>
+                        <li>Podrás plantear tus dudas.</li>
+                    </ul>
+                    <div style="text-align:center">
+                        <button class="boton bg-azul" onclick="openFullscreen()">Pantalla completa</button>
+                    </div>
+                </div>
+            </div>
+            <div class="celdas columna bg-black">
+                <div id="demovid">
+                    <iframe width="560" height="315" src="https://www.youtube.com/watch?v=tlAn5BtCP-g" 
+                        title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
+                        encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+                    </iframe>
+                </div>
+            </div>
+        </section>
+    </article>
     
     <footer>
-        <p>GreatMinds ©️ 2024. Todos los derechos reservados.</p>
+        <p>GreatMinds © 2024. Todos los derechos reservados.</p>
     </footer>
 
 </body>
-</html>
+</html
